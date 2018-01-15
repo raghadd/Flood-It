@@ -21,7 +21,7 @@ public class LNode {
     int times;
     int h;
     int g;
-    int f = h+levelCount;
+    int f = h+levelCount; // heuristic + cost
     
     // CCONSTRUCTORS
     public LNode(int[][] grid, boolean done){
